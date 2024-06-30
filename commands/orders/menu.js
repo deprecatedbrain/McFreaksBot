@@ -23,6 +23,6 @@ module.exports = {
             .setTimestamp()
             .setFooter({text:'© McFreaks 2024'})
 
-        interaction.reply({ embeds: [returnEmbed], ephemeral: true });
+        interaction.reply({ embeds: [returnEmbed] });
     },
 };
