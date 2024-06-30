@@ -3,8 +3,8 @@ const { SlashCommandBuilder, EmbedBuilder, ButtonBuilder, ButtonStyle } = requir
 const fs = require('fs');
 const path = require('path');
 
-const pingId = '1257040264548057118';
-const orderChannelId = '1257025761399934981';
+const pingId = '1257088879404650507';
+const orderChannelId = '1257084604037464165';
 const logFilePath = path.join(__dirname, '../../orderLogs.json');
 
 module.exports = {
@@ -19,7 +19,7 @@ module.exports = {
                 .setRequired(true)),
 
     async execute(interaction) {
-        await interaction.deferReply();
+        await interaction.deferReply({ephemeral: true});
         const items = interaction.options.getString('items');
 
         const takeOrderBtn = new ButtonBuilder()
