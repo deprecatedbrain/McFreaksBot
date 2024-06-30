@@ -50,5 +50,13 @@
     "status": "Completed",
     "orderer": "1255658589960540210",
     "timestamp": "2024-06-30T21:55:34.788Z"
+  },
+  {
+    "orderNumber": 8,
+    "items": "ermm umm can i have a *sniff* a mcskibidi with some fanum tax sauce pweaseee",
+    "status": "Denied",
+    "orderer": "596750136344838144",
+    "assignee": "990966283610783834",
+    "timestamp": "2024-06-30T22:03:34.695Z"
   }
 ]
